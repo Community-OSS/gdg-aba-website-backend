@@ -1,6 +1,6 @@
 # Project Name
 
-GDG ABA WEBSITE BACKEND - Open Source Django Project
+GDG ABA Website Backend Repository
 
 ## Overview
 
@@ -17,12 +17,13 @@ To contribute to this project, follow these steps:
     ```bash
     git clone https://github.com/YourUsername/gdg-aba-website-backend.git
     ```
-
+    
 3. **Create a Branch:** Create a new branch for your work. Use a descriptive branch name that reflects the nature of your contribution. Preferably, use your username as the branch.
 
     ```bash
     git checkout -b feature/your-new-feature
     ```
+Note: Don't forget to install the required packages by doing `pip install -r requirements.txt`
 
 4. **Make Changes:** Make your changes or additions to the project code. Be sure to follow the project's coding guidelines and best practices.
 
@@ -31,23 +32,28 @@ To contribute to this project, follow these steps:
     ```bash
     git commit -m "Add a new feature"
     ```
+6. Update the Requirements file: Do this before pushing so the next contributor won't face any issue
+   ```bash
+       pip freeze >> requirements.txt
+   ```     
 
-6. **Push Your Changes:** Push your changes to your fork on GitHub.
+7. **Push Your Changes:** Push your changes to your fork on GitHub.
 
     ```bash
     git push origin feature/your-new-feature
     ```
 
-7. **Submit a Pull Request:** Go to the original repository on GitHub and click the "New Pull Request" button. Provide a clear and detailed description of your changes in the pull request.
+8. **Submit a Pull Request:** Go to the original repository on GitHub and click the "New Pull Request" button. Provide a clear and detailed description of your changes in the pull request.
 
 ## Code Guidelines
 
 Please adhere to the following guidelines when contributing to this project:
 
-- Follow the project's coding style and formatting conventions.
+- Use [Black](https://pypi.org/project/black/) for formatting.
 - Write clear and concise code with comments where necessary.
 - Test your code thoroughly.
 - Keep your pull requests focused on a single issue or feature.
+- Here is [DRF documentation](https://www.django-rest-framework.org/) to assist you. 
 
 ## Reporting Issues
 
