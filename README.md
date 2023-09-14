@@ -61,7 +61,7 @@ If you encounter bugs, have suggestions, or want to discuss new features, please
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
