@@ -57,6 +57,21 @@ python manage.py runserver
 - To install packages use: `pipenv install package-name`
 More about Pipenv [here](https://pipenv.pypa.io/en/latest/)
 
+## API Endpoints
+
+- Root API: http://127.0.0.1:8000/api/v1/
+
+### Community Talent
+
+![Community Talent](community.PNG)
+
+- List Endpoint: http://127.0.0.1:8000/api/v1/community-talent/
+- Get Endpoint: http://127.0.0.1:8000/api/v1/community-talent/{id}
+- Post Endpoint: http://127.0.0.1:8000/api/v1/community-talent/
+- Put Endpoint: http://127.0.0.1:8000/api/v1/community-talent/{id}
+- Delete Endpoint: http://127.0.0.1:8000/api/v1/community-talent/{id}
+
+
 ## Getting Started With Contributing
 
 To contribute to this project, follow these steps:
